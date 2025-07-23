@@ -4,7 +4,7 @@ A program that approximates a given image by drawing straight lines across the s
 It doesn't work quite as well as I would like. a few Optimizations I'm considering are fully implementing the lookup table, and stopping the deviance calculation once it has surpassed the current lowest deviance. That if statement might just slow things down though. Will need to test to find anything conclusive.
 
 
-Running it yourself
+Running it yourself \n
 Just copy and paste the file path of any jpg you have into the filename variable (somewhere around line 123)
 
 Also, this might break if you use a different colorspace than I am. However, I'm pretty sure that whatever the default color space is for a jpg is what I use, so I wouldn't stress too much. Beyond that, everything about this has been written and run in VS code using pygame 2.5.2 and a Python debugger. It's not anything too terrible large or complex, so I don't expect many issues.
